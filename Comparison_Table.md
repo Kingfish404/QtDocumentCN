@@ -2,11 +2,16 @@
 
 | 英                                | 汉               |
 | --------------------------------- | ---------------- |
+| Access functions:                 | 存取函数         |
 | Detailed Description              | 详细描述         |
 | Emit                              | 发射             |
+| Introspect / Introspection        | 自省             |
+| Invokable                         | 可动态调用       |
+| Invoke                            | 动态调用         |
 | Marshall                          | 序列化           |
 | Member Function Documentation     | 成员函数文档     |
 | Member Type Documentation         | 成员类型文档     |
+| Notifier signal                   | 通知信号         |
 | Obsolete                          | 过时的           |
 | Post                              | 投送             |
 | Protected Functions               | 保护成员函数     |
@@ -27,4 +32,5 @@
 | Signals                           | 信号             |
 | Slots                             | 槽               |
 | Static Public Member              | 静态公共成员     |
+| You                               | 您               |
 

@@ -53,14 +53,16 @@ git pull --rebase
 
 在对类成员或实现方法进行讲解时，我们决定采用 Qt 官方文档的命名方式。
 
-以成员函数标题为例： `[修饰符]+空格+函数类型+空格+函数名及参数+空格+const修饰符`
+以成员函数标题为例： `[修饰符] 返回类型 函数名(参数类型 参数名) const/volatile修饰符`。
+
+其中，`函数名`加粗，`修饰符`、`参数名`斜体。
 
 示例：
 
 ```markdown
 ### *[static]* int QString::compare(const QString &*s1*, const QString &*s2*, Qt::CaseSensitivity *cs* = Qt::CaseSensitive)
 ### *[virtual protected]* void QObject::childEvent(QChildEvent *\*event*)
-### *[override virtual]* qint64 QAbstractSocket::bytesAvailable() const
+### *[override virtual]* qint64 QAbstractSocket::bytesAvailable() **const**
 ```
 
 注：以上函数标题为了实现区分度，对修饰符和参数名增加了斜体效果。
@@ -92,11 +94,9 @@ git pull --rebase
 
 文本字段落中的编程关键字，需用段内代码格式包裹，如：
 ```text
-比如我想翻译`QX11Info`类。
+比如我想翻译 `QX11Info` 类。
 ```
-比如我想翻译`QX11Info`类。
-
-此时，段内代码自动提供了文字分隔视觉效果和前后间隔，无需再在英文内容前后增加空格。
+比如我想翻译 `QX11Info` 类。
 
 ### 图片
 
